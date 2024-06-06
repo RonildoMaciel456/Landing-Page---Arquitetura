@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'inter';
+}
+
+#menusuperior{
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: #FFFFFF;
+    font-family: 'inter';
+    width: 100%;
+    max-width: 1440px;
+    height: 475px;
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+#titulo-menusuperior{
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+#texto-menusuperior{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#menuinformacional{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F9F9F9;
+    text-align: justify;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    height: 229px;
+}
+
+.titulo-numero{
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 229px;
+    margin-bottom: -190px;
+}
+
+.paragrafo-negrito{
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 100px;
+    margin-bottom: 90px;
+}
+
+#historia-imagem{
+    display: grid;
+    grid-template-columns: 780px 535px;
+    gap: 30px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#img-arquitetura{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#titulo-historia{
+    margin-top: 200px;
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 44px;
+    margin-left: 50px;
+}
+
+#paragrafo-historia{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#formulario{
+    background-color: #303030;
+    width: 100%;
+    max-width: 1440px;
+    height: 560px;
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    margin: 25px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+
+::placeholder{
+    font-family: 'Raleway'; 
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.3)
+}
+
+button{
+    width: 286px;
+    height: 74px;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Raleway';
+    background-color: #C07212;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e29536;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px #3a2307;
+    transition-duration: 0.5s;
+}
